@@ -1,5 +1,6 @@
 import pygame
 from constants import *
+from player import Player
 
 def main():
 
@@ -9,7 +10,7 @@ def main():
     clock = pygame.time.Clock()
     dt = 0
     running = True
-
+    player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2) 
 
     while running:
     
@@ -20,10 +21,9 @@ def main():
         screen.fill("black")
 
         # RENDER GAME HERE
-        # flip() the display to put your work on screen/refresh
-        
-        pygame.display.flip()
-        
+        player.draw(screen)
+
+        pygame.display.flip() # display on screen/refresh
         clock.tick(60) # limits FPS to 60
         dt = clock.tick(60) / 1000
 
