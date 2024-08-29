@@ -8,7 +8,7 @@ from shot import Shot
 
 
 def main():
-
+    # Asteroid game main loop changes
     # pygame setup
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
