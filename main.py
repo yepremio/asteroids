@@ -8,8 +8,7 @@ from shot import Shot
 
 
 def main():
-    # Asteroid game main loop changes
-    # level 2 short functions
+    #add additional cells below
     # pygame setup
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
@@ -20,8 +19,7 @@ def main():
     drawable = pygame.sprite.Group()
     asteroids = pygame.sprite.Group()
     shots = pygame.sprite.Group()
-    #research errors in this section
-    # add final 2 functions below line
+
     Shot.containers = (shots, updatable, drawable)
     Player.containers = (updatable, drawable)
     Asteroid.containers = (updatable, drawable, asteroids)
@@ -31,7 +29,7 @@ def main():
 
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2) 
     dt = 0
-
+    new function # line insertion here
     while running:
     
         for event in pygame.event.get():
