@@ -29,7 +29,8 @@ def main():
 
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2) 
     dt = 0
-    new function # line insertion here
+some functions are faulty
+new function # line insertion here
     while running:
     
         for event in pygame.event.get():
