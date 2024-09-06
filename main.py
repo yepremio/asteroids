@@ -30,6 +30,7 @@ def main():
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2) 
     dt = 0
 some functions are faulty
+fixedlayertop
 new function # line insertion here
     while running:
     
