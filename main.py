@@ -8,7 +8,6 @@ from shot import Shot
 
 
 def main():
-    #add additional cells below
     # pygame setup
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
@@ -29,9 +28,7 @@ def main():
 
     player = Player(SCREEN_WIDTH / 2, SCREEN_HEIGHT / 2) 
     dt = 0
-some functions are faulty
-fixedlayertop
-new function # line insertion here
+
     while running:
     
         for event in pygame.event.get():
