@@ -20,4 +20,5 @@ class Asteroid(CircleShape):
             return
         else: self.spawn.random.uniform(20, 50)
 add additional cells below
-function call - reference call 
+function call - reference call
+def asteroid_min 
